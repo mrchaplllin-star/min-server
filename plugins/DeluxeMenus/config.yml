@@ -1,0 +1,47 @@
+# DeluxeMenus 1.14.1-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/helpchat-plugins/deluxemenus
+
+# DeluxeMenus 1.14.1-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/helpchat-plugins/deluxemenus
+check_updates: true
+debug: LOW
+use_admin_commands_in_menus_list: false
+menus_list_page_size: 10
+metas_list_page_size: 15
+
+# Тут реєструються всі ваші меню
+gui_menus:
+  # Головне меню (перейменовано на global_menu)
+  global_menu:
+    file: global_menu.yml
+    open_commands:
+    - menu
+    - main
+    - globalmenu
+  
+  # Меню виживання
+  survival_menu:
+    file: survival_menu.yml
+    open_commands:
+    - survival
+    - survivalmenu
+    - surv
+  
+  # Меню відладки (перейменовано на debug)
+  debug:
+    file: debug.yml
+    open_commands:
+    - debug
+    - debugmenu
+  
+  # Меню міні-ігор
+  minigames_menu:
+    file: minigames_menu.yml
+    open_commands:
+    - minigames
+    - minigamesmenu
+    - games

@@ -1,0 +1,24 @@
+items-Version: 8
+items-Delay: 2
+items-Overwrite: true
+items-Spamming: false
+
+items:
+  server-selector:
+    id: COMPASS
+    slot: 8 # Це 10-та ячейка (рахунок починається з 0)
+    name: '&6&lМеню сервера &7(ПКМ)'
+    lore:
+      - '&7Натисніть праву кнопку миші,'
+      - '&7щоб відкрити головне меню.'
+    interact:
+      - 'player: menu' # Виконує команду /menu від імені гравця
+    itemflags:
+      - self-bound      # Не можна викинути
+      - inventory-modify # Не можна пересувати в інвентарі
+      - death-sticky    # Не випадає при смерті
+    triggers: 
+      - join           # Видати при вході на сервер
+      - world-switch   # Видати при переході між світами
+      - respawn        # Видати після відродження
+    enabled-worlds: ALL # З'являється у всіх світах

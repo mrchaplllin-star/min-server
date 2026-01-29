@@ -1,0 +1,172 @@
+version: 2 # DO NOT CHANGE
+holograms:
+  FancyHolograms:
+    type: TEXT
+    location:
+      world: Options
+      x: -9.177434921264648
+      y: -56.37893295288086
+      z: 2.299999952316284
+      yaw: 0.0
+      pitch: 0.0
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - FancyHolograms
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    billboard: fixed
+  (Назва:
+    type: TEXT
+    location:
+      world: Options
+      x: -3.5597219467163086
+      y: -59.002174377441406
+      z: 9.891119956970215
+      yaw: -90.0
+      pitch: 3.7498899
+    visibility_distance: 4
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 1.0
+    shadow_strength: 19.0
+    text:
+    - '2'
+    - Edit this line with /hologram edit (Назва
+    - '2'
+    - (Лінія 1)
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: '#c8ffaa00'
+  '12':
+    type: BLOCK
+    location:
+      world: Options
+      x: -7.5
+      y: -60.0
+      z: 4.5
+      yaw: 180.0
+      pitch: 7.3498793
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: fixed
+    block: ACACIA_WOOD
+    block_brightness: 15
+    sky_brightness: 0
+  white_candle:
+    type: BLOCK
+    location:
+      world: Options
+      x: -14.837993621826172
+      y: -60.0
+      z: 5.246769905090332
+      yaw: -176.39954
+      pitch: -15.300288
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 19.0
+    billboard: fixed
+    block: WHITE_CANDLE
+    block_brightness: 15
+    sky_brightness: 0
+  Global_Info:
+    type: TEXT
+    location:
+      world: Hub
+      x: -823.5
+      y: 59.189247131347656
+      z: -766.5
+      yaw: -90.0
+      pitch: 10.0
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - Блядь я вроді то зробив а шо тут написати
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    billboard: fixed
+  Status_control:
+    type: TEXT
+    location:
+      world: Hub
+      x: -816.6055908203125
+      y: 56.0
+      z: -773.739013671875
+      yaw: 0.0
+      pitch: 0.0
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.4
+    scale_y: 1.4
+    scale_z: 1.4
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&fІнформація мандрівника &e&l%player_name%'
+    - '&1'
+    - '&1'
+    - '&1'
+    - '&1'
+    - '&1'
+    - '&1'
+    - '&1'
+    - '&1'
+    - '&1'
+    - '&1'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    billboard: fixed
+    background: '#c8000000'

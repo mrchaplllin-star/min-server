@@ -1,0 +1,23 @@
+id: AETHER_FRIGID_CLIFFS
+type: BIOME
+extends: [ AETHER, EQ_AETHER_MOUNTAINS ]
+color: $biomes/colors.yml:AETHER_FRIGID_CLIFFS
+vanilla: minecraft:the_end
+
+palette:
+  - SNOW: 319
+
+features:
+  slabs:
+    - SNOW_LAYERS
+  trees:
+    - OAK_BUSHES
+    - SPARSE_OAK_TREES
+  flora:
+    - GRASS
+    - FERNS
+  postprocessors:
+    - HANGING_LANTERNS
+    - TREE_SNOW
+    - CEILING_ICICLES
+  

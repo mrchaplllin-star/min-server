@@ -1,0 +1,127 @@
+# --{ =-=-=-=-=-=-=-=-=-= Український файл мови ItemJoin, переклад від Gemini =-=-=-=-=-=-=-=-=-= }--
+# Якщо ви не хочете, щоб повідомлення надсилалося, видаліть його або залиште пустим.
+
+en-Version: 8
+
+# Префікс, який буде додаватися на початку кожного повідомлення.
+Prefix: '&7[&eItemJoin&7]'
+
+# Загальні повідомлення про використання предметів.
+general:
+  failedOverwrite: '%prefix% &cНе вдалося видати &4%fail_count% &cпредм., оскільки заборонено перезаписувати існуючі предмети!'
+  failedInventory: '%prefix% &cНе вдалося видати &4%fail_count% &cпредм., ваш інвентар заповнений!'
+  econSuccess: '%prefix% &aКоманду успішно виконано за &e$%cost%&a.'
+  econFailed: '%prefix% &cУ вас недостатньо коштів! \n%prefix% &cУ вас &4$%balance% &cіз необхідних &4$%cost%.'
+  itemSuccess: '%prefix% &aКоманду успішно виконано за &e%cost% %item_type%(s)&a.'
+  itemFailed: '%prefix% &cУ вас недостатньо &4%item_type%&c! \n%prefix% &cУ вас &4%balance% &cіз необхідних &4%cost%.'
+  warmingUp: '%prefix% &aПредмет [%item%&a] готується до використання...'
+  warmingTime: '%prefix% &aАктивація [%item%&a] через &2%time_left%&a сек.'
+  warmingHalted: '%prefix% &cАктивацію &4[&c%item%&4] &cскасовано!'
+
+# Повідомлення для команд плагіна.
+commands:
+  default:
+    unknownCommand: '%prefix% &cНевідома команда. Використовуйте &l/ItemJoin Help &cдля списку команд.'
+    noPermission: '%prefix% &cУ вас немає прав на використання цієї команди!'
+    configReload: '%prefix% &aКонфігурацію успішно перезавантажено!'
+    noPlayer: '%prefix% &cЦю команду може виконувати тільки гравець!'
+    noTarget: '%prefix% &cГравця &c%target_player% &cне знайдено!'
+  menu:
+    openMenu: '%prefix% &aМеню відкрито.'
+    itemSaved: '%prefix% &e%item% &aуспішно збережено.'
+    itemRemoved: '%prefix% &e%item% &cуспішно видалено.'
+    noInteger: '%prefix% &c&l&nПОМИЛКА:&c Значення &4%input% &cмає бути цілим числом!'
+    noMaterial: '%prefix% &c&l&nПОМИЛКА:&c Значення &4%input% &cне є коректним матеріалом!'
+    inputType: '%prefix% &aВведіть &e%input%&a, який ви хочете встановити для предмета.'
+    inputSet: '%prefix% &aПараметр &e%input% &aдля предмета успішно встановлено!'
+    inputExample: '%prefix% &aПриклад: %input_example%'
+  item:
+    noItemHeld: '%prefix% &cВи не тримаєте предмет у руці!'
+    noItem: '%prefix% &cПредмета &b%item% &cне існує!'
+    badCommand: '%prefix% &cВам заборонено використовувати команду &4&l%command%&c з цим предметом!'
+  info:
+    material: '&aID предмета (Матеріал): &e&l%item%'
+    data: '&aДані предмета (Data Type): &e&l%item%'
+  query:
+    node: '&aВузол: &e&l%item%'
+    material: '&aМатеріал: &e&l%item_type%'
+    slot: '&aСлот: &e&l%item_slot%'
+    permission: '&aПрава: %item_permission%'
+    badSyntax: '%prefix% &cНевірний синтаксис! Використовуйте: /itemjoin query <назва_предмета>!'
+  list:
+    worldHeader: '&a&l%world%:'
+    itemRow: '&a&l   &a%item%'
+    noItems: '&c&l   &cДля цього світу не визначено жодного предмета.'
+  world:
+    worldFound: '&aЗнайдені світи:'
+    worldHeader: '&aВи перебуваєте у світі:'
+    worldRow: '&e- %world%'
+  updates:
+    checkRequest: '%prefix% &4%player% надіслав запит на перевірку оновлень!'
+    updateRequest: '%prefix% &4%player% надіслав запит на примусове оновлення плагіна!'
+  get:
+    givenYou: '%prefix% &aВи отримали &b%amount%x &7[&e%item%&7]&a.'
+    givenYou_All: '%prefix% &aВи отримали &bусі доступні предмети&a.'
+    givenTarget: '%prefix% &aВи видали гравцю %target_player% &b%amount%x &7[&e%item%&7]&a.'
+    givenTarget_All: '%prefix% &aВи видали гравцю %target_player% &bусі предмети&a.'
+    givenOnline: '%prefix% &aВи видали &b%amount%x &7[&b%item%&7]&a усім гравцям в мережі (&e%players%&a).'
+    targetTriedGive: '%prefix% &4%target_player% &cнамагався видати вам &7[&b%item%&7]&c, але він вже є у вашому інвентарі!'
+    targetTriedGive_All: '%prefix% &4%target_player% &cнамагався видати вам &bусі предмети&c, але вони вже у вас є!'
+    failedInventory: '%prefix% &cУ вас вже є предмет &7[&b%item%&7]&c!'
+    failedInventory_All: '%prefix% &cУ вас вже є &bусі визначені предмети&c!'
+    targetFailedInventory: '%prefix% &cУ гравця &4%target_player% &cвже є предмет &7[&b%item%&7]&c!'
+    targetFailedInventory_All: '%prefix% &cУ гравця &4%target_player% &cвже є &bусі предмети&c!'
+    onlineFailedInventory: '%prefix% &cУ &4усіх гравців&c вже є предмет &7[&b%item%&7]&c!'
+    targetNoPermission: '%prefix% &cГравець &4%target_player% &cне має прав на отримання предмета &7[&b%item%&7]&c.'
+    targetNoPermission_All: '%prefix% &cУ &4%target_player% &cнемає прав на деякі предмети, тому видано &lне &bвсі&c.'
+    noPermission: '%prefix% &cУ вас немає прав на отримання предмета &7[&b%item%&7]&c.'
+    noPermission_All: '%prefix% &cУ вас немає прав на деякі предмети, тому видано &lне &bвсі&c.'
+    usageSyntax: '%prefix% &cВикористовуйте /ItemJoin get <предмет> <гравець> з консолі.'
+    badSyntax: '%prefix% &cНевірний синтаксис! Спробуйте: /itemjoin get <предмет> [кількість]!'
+    badOnlineSyntax: '%prefix% &cНевірний синтаксис! Спробуйте: /itemjoin getOnline <предмет> [кількість]!'
+  remove:
+    removedYou: '%prefix% &b%amount%x &7[&e%item%&7]&c видалено з вашого інвентарю.'
+    removedYou_All: '%prefix% &bУсі предмети &aвидалено з вашого інвентарю.'
+    removedTarget: '%prefix% &cВи видалили &b%amount%x &7[&e%item%&7]&c у &4%target_player%&c.'
+    removedTarget_All: '%prefix% &aВи видалили &bусі предмети &aу &b%target_player%&a.'
+    removedOnline: '%prefix% &cВи видалили &b%amount%x &7[&b%item%&7]&c у гравців: &4%players%&c.'
+    targetTriedRemoval: '%prefix% &4%target_player% &cнамагався видалити &7[&b%item%&7]&c, але його немає у вашому інвентарі!'
+    targetTriedRemoval_All: '%prefix% &4%target_player% &cнамагався видалити &bусі предмети&c, але ваш інвентар порожній!'
+    failedInventory: '%prefix% &cПредмета &7[&e%item%&7] &cнемає у вашому інвентарі!'
+    failedInventory_All: '%prefix% &cУ вашому інвентарі немає &bжодного визначеного предмета&c!'
+    targetFailedInventory: '%prefix% &cПредмета &7[&e%item%&7] &cнемає в інвентарі &4%target_player%&c!'
+    targetFailedInventory_All: '%prefix% &bВизначених предметів &cнемає в інвентарі &4%target_player%&c!'
+    onlineFailedInventory: '%prefix% &cПредмет &b%item% &cвідсутній у всіх гравців онлайн.'
+    usageSyntax: '%prefix% &cВикористовуйте /ItemJoin remove <предмет> <гравець> з консолі.'
+    badSyntax: '%prefix% &cНевірний синтаксис! Спробуйте: /itemjoin remove <предмет>!'
+    badOnlineSyntax: '%prefix% &cНевірний синтаксис! Спробуйте: /itemjoin removeOnline <предмет>!'
+  database:
+    purgeWarn: '%prefix% &aОчищення бази даних видалить &cУСІ &aдані (%purge_data%) для &b%target_player%&a.'
+    purgeSuccess: '%prefix% &aВи очистили базу даних від %purge_data% для &b%target_player%&a!'
+    purgeConfirm: '%prefix% &aУ вас є 5 секунд, щоб ввести &e%command% &aзнову для підтвердження.'
+    purgeTimeOut: '%prefix% &cПідтвердження не отримано протягом &b5 секунд&c, очищення скасовано!'
+  enabled:
+    forPlayer: '%prefix% &aВи &eувімкнули &bусі предмети &aдля &e%target_player%&a.'
+    forTarget: '%prefix% &a%player% &eувімкнув &bусі предмети &aдля вас.'
+    forPlayerFailed: '%prefix% &cПредмети вже &eувімкнені &cдля &e%player%&c.'
+    forPlayerWorld: '%prefix% &aВи &eувімкнули &7[&e%world%&7] предмети &aдля &e%player%&a.'
+    forTargetWorld: '%prefix% &a%player% &eувімкнув &7[&e%world%&7] предмети для вас.'
+    forPlayerWorldFailed: '%prefix% &cВи вже &eувімкнули &7[&e%world%&7] предмети &cдля &e%player%&c.'
+    globalPlayers: '%prefix% &aВи &eувімкнули &bусі предмети &aдля &eвсіх гравців&a.'
+    globalPlayersFailed: '%prefix% &cПредмети вже &eувімкнені &cдля &eвсіх гравців&c.'
+    toggleEnable: '%prefix% &aВи увімкнули предмет &b%item%&a, тепер він буде видаватися.'
+    togglePlayerFailed: '%prefix% &cВи не можете увімкнути %item%, бо всі предмети вимкнені для вас глобально!'
+  disabled:
+    forPlayer: '%prefix% &aВи &eвимкнули &bусі предмети &aдля &e%target_player%&a.'
+    forTarget: '%prefix% &a%player% &eвимкнув &bусі предмети &aдля вас.'
+    forPlayerFailed: '%prefix% &cПредмети вже &eвимкнені &cдля &e%player%&c.'
+    forPlayerWorld: '%prefix% &aВи &eвимкнули &7[&e%world%&7] предмети &aдля &e%player%&a.'
+    forTargetWorld: '%prefix% &a%player% &eвимкнув &7[&e%world%&7] предмети для вас.'
+    forPlayerWorldFailed: '%prefix% &cВи вже &eвимкнули &7[&e%world%&7] предмети &cдля &e%player%&c.'
+    globalPlayers: '%prefix% &aВи &eвимкнули &bусі предмети &aдля &eвсіх гравців&a.'
+    globalPlayersFailed: '%prefix% &cПредмети вже &eвимкнені &cдля &eвсіх гравців&c.'
+    toggleDisable: '&cВи вимкнули предмет &b%item%&c, він більше не буде видаватися.'
+    togglePlayerFailed: '%prefix% &cВи не можете вимкнути %item%, бо всі предмети вимкнені для вас глобально!'
+
+placeholders:
+  PLAYER_INTERACT: 'Невідомо'

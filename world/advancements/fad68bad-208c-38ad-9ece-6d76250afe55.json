@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2022-10-14 19:51:59 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2022-10-14 19:37:52 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}

@@ -1,0 +1,109 @@
+menu_title: '&a&lМеню виживання'
+size: 27
+
+items:
+  filler:
+    material: GREEN_STAINED_GLASS_PANE
+    slots:
+      - 0-26
+    display_name: ' '
+    
+  # Основний острів (Скайблок)
+  skyblock_island:
+    material: GRASS_BLOCK
+    slot: 10
+    display_name: '&6&lОсновний острів (Скайблок)'
+    lore:
+      - '&7Предмет: Компас'
+      - '&7Зачаровання: Ні'
+      - ''
+      - '&eКлікніть щоб телепортуватись'
+    left_click_commands:
+      - '[console] mv tp %player_name% Cwest'
+      - '[close]'
+      - '[message] &aТелепортація на основний острів!'
+    right_click_commands:
+      - '[console] mv tp %player_name% Cwest'
+      - '[close]'
+      - '[message] &aТелепортація на основний острів!'
+      
+  # Виживання
+  survival:
+    material: EMERALD
+    slot: 12
+    display_name: '&a&lВиживання'
+    lore:
+      - '&7Предмет: Ізумруд'
+      - '&7Зачаровання: Ні'
+      - ''
+      - '&eКлікніть щоб телепортуватись'
+    left_click_commands:
+      - '[console] mv tp %player_name% Survival'
+      - '[close]'
+      - '[message] &aТелепортація у світ виживання!'
+    right_click_commands:
+      - '[console] mv tp %player_name% Survival'
+      - '[close]'
+      - '[message] &aТелепортація у світ виживання!'
+      
+  # Нетер
+  nether:
+    material: NETHERRACK
+    slot: 14
+    display_name: '&c&lНезер'
+    lore:
+      - '&7Предмет: Зірка краю'
+      - '&7Зачаровання: Ні'
+      - ''
+      - '&eКлікніть щоб телепортуватись'
+    left_click_commands:
+      - '[console] mv tp %player_name% Nether'
+      - '[close]'
+      - '[message] &cТелепортація у Незер!'
+    right_click_commands:
+      - '[console] mv tp %player_name% Nether'
+      - '[close]'
+      - '[message] &cТелепортація у Незер!'
+      
+  # Енд
+  end:
+    material: END_CRYSTAL
+    slot: 16
+    display_name: '&5&lЕнд'
+    lore:
+      - '&7Предмет: Кристал енду'
+      - '&7Зачаровання: Ні'
+      - ''
+      - '&eКлікніть щоб телепортуватись'
+    left_click_commands:
+      - '[console] mv tp %player_name% End'
+      - '[close]'
+      - '[message] &5Телепортація в Енд!'
+    right_click_commands:
+      - '[console] mv tp %player_name% End'
+      - '[close]'
+      - '[message] &5Телепортація в Енд!'
+      
+  # Кнопка назад
+  back:
+    material: ARROW
+    slot: 22
+    display_name: '&e&lНазад'
+    lore:
+      - '&7Повернутись до головного меню'
+    left_click_commands:
+      - '[openguimenu] global_menu'
+    right_click_commands:
+      - '[openguimenu] global_menu'
+      
+  # Кнопка закриття
+  close:
+    material: BARRIER
+    slot: 26
+    display_name: '&c&lЗакрити меню'
+    lore:
+      - '&7Клікніть щоб закрити'
+    left_click_commands:
+      - '[close]'
+    right_click_commands:
+      - '[close]'

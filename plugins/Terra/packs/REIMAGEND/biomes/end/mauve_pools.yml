@@ -1,0 +1,21 @@
+id: MAUVE_POOLS
+type: BIOME
+extends: [ END, EQ_DRIFTFALLS ]
+vanilla: minecraft:end_barrens
+color: $biomes/colors.yml:MAUVE_POOLS
+
+colors:
+  grass: 0x8e3db7
+  foliage: 0x972ad1
+  water: 0xA020F0
+  water-fog: 0xA020F0
+
+palette:
+  - MAUVE_GROUND: 319
+
+features:
+  preprocessors:
+    - WATER_POOLS
+    - WATER_COLUMNS
+  flora:
+    - END_GRASS

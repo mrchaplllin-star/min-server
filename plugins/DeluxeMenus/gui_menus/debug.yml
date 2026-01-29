@@ -1,0 +1,155 @@
+menu_title: '&b&lМеню відладки'
+size: 27
+
+items:
+  filler:
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slots:
+      - 0-26
+    display_name: ' '
+    
+  # Сайт для відладки
+  debug_site:
+    material: STICK
+    slot: 10
+    display_name: '&b&lСайт для отладки'
+    lore:
+      - '&7Предмет: Палочка'
+      - '&7Зачаровання: Так'
+      - ''
+      - '&eКлікніть щоб телепортуватись'
+    enchantments:
+      - 'UNBREAKING;1'
+    item_flags:
+      - HIDE_ENCHANTS
+    left_click_commands:
+      - '[console] mv tp %player_name% Options'
+      - '[close]'
+      - '[message] &bТелепортація на сайт відладки!'
+    right_click_commands:
+      - '[console] mv tp %player_name% Options'
+      - '[close]'
+      - '[message] &bТелепортація на сайт відладки!'
+      
+  # Творчий світ
+  creative:
+    material: WOODEN_AXE
+    slot: 12
+    display_name: '&b&lТворчий світ'
+    lore:
+      - '&7Предмет: Дерев''яний топор'
+      - '&7Зачаровання: Ні'
+      - ''
+      - '&eКлікніть щоб телепортуватись'
+    left_click_commands:
+      - '[console] mv tp %player_name% Creative'
+      - '[close]'
+      - '[message] &bТелепортація у Творчий світ!'
+    right_click_commands:
+      - '[console] mv tp %player_name% Creative'
+      - '[close]'
+      - '[message] &bТелепортація у Творчий світ!'
+      
+  # Хаб
+  hub:
+    material: ENDER_EYE
+    slot: 14
+    display_name: '&d&lХаб'
+    lore:
+      - '&7Предмет: Ендер око'
+      - '&7Зачаровання: Так'
+      - ''
+      - '&eКлікніть щоб телепортуватись'
+    enchantments:
+      - 'UNBREAKING;1'
+    item_flags:
+      - HIDE_ENCHANTS
+    left_click_commands:
+      - '[console] mv tp %player_name% Hub'
+      - '[close]'
+      - '[message] &aВи телепортувались на Хаб!'
+    right_click_commands:
+      - '[console] mv tp %player_name% Hub'
+      - '[close]'
+      - '[message] &aВи телепортувались на Хаб!'
+      
+  # Виживання
+  survival:
+    material: EMERALD
+    slot: 16
+    display_name: '&a&lВиживання'
+    lore:
+      - '&7Предмет: Ізумруд'
+      - '&7Зачаровання: Ні'
+      - ''
+      - '&eКлікніть щоб телепортуватись'
+    left_click_commands:
+      - '[console] mv tp %player_name% Survival'
+      - '[close]'
+      - '[message] &aТелепортація у світ виживання!'
+    right_click_commands:
+      - '[console] mv tp %player_name% Survival'
+      - '[close]'
+      - '[message] &aТелепортація у світ виживання!'
+      
+  # Енд
+  end:
+    material: END_CRYSTAL
+    slot: 19
+    display_name: '&5&lЕнд'
+    lore:
+      - '&7Предмет: Кристал енду'
+      - '&7Зачаровання: Ні'
+      - ''
+      - '&eКлікніть щоб телепортуватись'
+    left_click_commands:
+      - '[console] mv tp %player_name% End'
+      - '[close]'
+      - '[message] &5Телепортація в Енд!'
+    right_click_commands:
+      - '[console] mv tp %player_name% End'
+      - '[close]'
+      - '[message] &5Телепортація в Енд!'
+      
+  # Нетер
+  nether:
+    material: NETHERRACK
+    slot: 21
+    display_name: '&c&lНезер'
+    lore:
+      - '&7Предмет: Зірка краю'
+      - '&7Зачаровання: Ні'
+      - ''
+      - '&eКлікніть щоб телепортуватись'
+    left_click_commands:
+      - '[console] mv tp %player_name% Nether'
+      - '[close]'
+      - '[message] &cТелепортація у Незер!'
+    right_click_commands:
+      - '[console] mv tp %player_name% Nether'
+      - '[close]'
+      - '[message] &cТелепортація у Незер!'
+      
+  # Кнопка назад
+  back:
+    material: ARROW
+    slot: 22
+    display_name: '&e&lНазад'
+    lore:
+      - '&7Повернутись до головного меню'
+    left_click_commands:
+      - '[openguimenu] global_menu'
+    right_click_commands:
+      - '[openguimenu] global_menu'
+      
+  # Кнопка закриття
+  close:
+    material: BARRIER
+    slot: 26
+    display_name: '&c&lЗакрити меню'
+    lore:
+      - '&7Клікніть щоб закрити'
+    left_click_commands:
+      - '[close]'
+    right_click_commands:
+      - '[close]'

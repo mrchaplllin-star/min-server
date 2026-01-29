@@ -1,0 +1,49 @@
+biomes:
+  type: PIPELINE
+  resolution: 4
+  blend:
+    amplitude: 2
+    resolution: 2
+    sampler:
+      type: GAUSSIAN
+  pipeline:
+
+    # Dragon Island with Outer End Rings
+    source: $biome-providers/sources/reimagEND.yml:source
+
+    # All Aether Dimension
+    #source: $biome-providers/sources/aether.yml:source
+    
+    stages:
+
+      # Distributes the outer end into different rings
+      - << biome-providers/stages/ring_distribution.yml:stages
+
+      # AETHER POCKET STAGE - COMMENT OUT TO REMOVE THEIR GENERATION
+      # Distributes aether pockets across certain rings of the outer end
+      - << biome-providers/stages/aether_pockets.yml:stages 
+
+      # Distributes void biomes across the outer end
+      - << biome-providers/stages/void_distribution.yml:stages
+
+      # Distributes outer end biomes across each ring
+      - << biome-providers/stages/end_biome_distribution.yml:stages 
+
+      # Distributes aether biomes
+      - << biome-providers/stages/aether_distribution.yml:stages 
+
+      # Distributes aether biomes
+      - << biome-providers/stages/add_border_biomes.yml:stages 
+
+      # Expanding and smoothing the edges of biomes
+      - << biome-providers/stages/expand.yml:stages
+      - << biome-providers/stages/expand.yml:stages
+      - << biome-providers/stages/smooth.yml:stages
+      - << biome-providers/stages/smooth.yml:stages
+      - << biome-providers/stages/smooth.yml:stages
+      - << biome-providers/stages/expand.yml:stages
+      - << biome-providers/stages/smooth.yml:stages
+      - << biome-providers/stages/smooth.yml:stages
+      - << biome-providers/stages/smooth.yml:stages
+
+

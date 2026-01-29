@@ -1,0 +1,135 @@
+menu_title: '&2&lОсновне меню'
+open_command: menu
+size: 27
+
+items:
+  filler:
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 0-26
+    display_name: ' '
+    
+  # Кнопка для відладки
+  debug_button:
+    material: STICK
+    slot: 10
+    display_name: '&b&lДля отладки'
+    lore:
+      - '&7Предмет: Палочка'
+      - '&7Зачаровання: Так'
+      - ''
+      - '&eКлікніть щоб відкрити'
+    enchantments:
+      - 'UNBREAKING;1'
+    item_flags:
+      - HIDE_ENCHANTS
+    left_click_commands:
+      - '[openguimenu] debug'
+    right_click_commands:
+      - '[openguimenu] debug'
+      
+  # Кнопка виживання
+  survival_button:
+    material: EMERALD
+    slot: 12
+    display_name: '&a&lВиживання'
+    lore:
+      - '&7Предмет: Ізумруд'
+      - '&7Зачаровання: Ні'
+      - ''
+      - '&eКлікніть щоб відкрити'
+    left_click_commands:
+      - '[openguimenu] survival_menu'
+    right_click_commands:
+      - '[openguimenu] survival_menu'
+      
+  # Кнопка міні ігор
+  minigames_button:
+    material: GOLDEN_APPLE
+    slot: 14
+    display_name: '&6&lМіні ігри та івенти'
+    lore:
+      - '&7Предмет: Золоте яблуко'
+      - '&7Зачаровання: Так'
+      - ''
+      - '&eКлікніть щоб відкрити'
+    enchantments:
+      - 'UNBREAKING;1'
+    item_flags:
+      - HIDE_ENCHANTS
+    left_click_commands:
+      - '[openguimenu] minigames_menu'
+    right_click_commands:
+      - '[openguimenu] minigames_menu'
+      
+  # Хаб
+  hub:
+    material: ENDER_EYE
+    slot: 16
+    display_name: '&d&lХаб'
+    lore:
+      - '&7Предмет: Ендер око'
+      - '&7Зачаровання: Так'
+      - ''
+      - '&eКлікніть щоб телепортуватись'
+    enchantments:
+      - 'UNBREAKING;1'
+    item_flags:
+      - HIDE_ENCHANTS
+    left_click_commands:
+      - '[console] mv tp %player_name% Hub'
+      - '[close]'
+      - '[message] &aВи телепортувались на Хаб!'
+    right_click_commands:
+      - '[console] mv tp %player_name% Hub'
+      - '[close]'
+      - '[message] &aВи телепортувались на Хаб!'
+      
+  # Творчий світ
+  creative:
+    material: WOODEN_AXE
+    slot: 19
+    display_name: '&b&lТворчий світ'
+    lore:
+      - '&7Предмет: Дерев''яний топор'
+      - '&7Зачаровання: Ні'
+      - ''
+      - '&eКлікніть щоб телепортуватись'
+    left_click_commands:
+      - '[console] mv tp %player_name% Creative'
+      - '[close]'
+      - '[message] &aВи телепортувались у Творчий світ!'
+    right_click_commands:
+      - '[console] mv tp %player_name% Creative'
+      - '[close]'
+      - '[message] &aВи телепортувались у Творчий світ!'
+      
+  # Інформація про гравця
+  player_info:
+    material: PLAYER_HEAD
+    slot: 22
+    display_name: '&e&lІнформація про гравця'
+    lore:
+      - '&7Гравець: &f%player_name%'
+      - '&7Світ: &f%player_world%'
+      - ''
+      - '&7Статистика та досягнення'
+    skull_owner: '%player_name%'
+    left_click_commands:
+      - '[close]'
+      - '[message] &eІнформація буде додана пізніше!'
+    right_click_commands:
+      - '[close]'
+      - '[message] &eІнформація буде додана пізніше!'
+      
+  # Кнопка закриття
+  close:
+    material: BARRIER
+    slot: 26
+    display_name: '&c&lЗакрити меню'
+    lore:
+      - '&7Клікніть щоб закрити'
+    left_click_commands:
+      - '[close]'
+    right_click_commands:
+      - '[close]'

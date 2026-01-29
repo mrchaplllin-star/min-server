@@ -1,0 +1,22 @@
+New worlds spawn structures: true
+Valid worlds:
+  Options: true
+  SmallHider: true
+  2hub: true
+  '1': true
+  '2': true
+  '3': true
+  '4': true
+  '5': true
+  '6': true
+  '11': true
+  world: true
+  world_nether: true
+  world_the_end: true
+  Nether: true
+  Hovanky: true
+  Hub: true
+  Survival: true
+  End: true
+  Parkour: true
+  Creative: true

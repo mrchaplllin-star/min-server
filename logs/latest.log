@@ -1,0 +1,318 @@
+[14:15:43] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS; Eclipse Adoptium Temurin-21.0.9+10) on Linux 6.1.0-18-amd64 (amd64)
+[14:15:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) for Minecraft 1.21.4
+[14:15:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:15:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[14:15:44] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - FancyHolograms (2.9.1)
+[14:15:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - DeluxeMenus (1.14.1-Release), ItemJoin (6.1.2-RELEASE-b1076), Multiverse-Core (5.5.0), Multiverse-NetherPortals (5.0.4), PerWorldInventory (2.3.2), PlaceholderAPI (2.11.7), Terra (6.6.1-BETA+83bc2c902), WorldEdit (7.4.0+7381-3decaf0)
+[14:15:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:15:48] [ServerMain/INFO]: Loaded 1370 recipes
+[14:15:48] [ServerMain/INFO]: Loaded 1481 advancements
+[14:15:48] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[14:15:48] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 136.9ms
+[14:15:48] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[14:15:48] [Server thread/INFO]: Loading properties
+[14:15:48] [Server thread/INFO]: This server is running Paper version 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[14:15:48] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:15:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:15:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:15:48] [Server thread/INFO]: [MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
+[14:15:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:15:48] [Server thread/INFO]: Default game type: SURVIVAL
+[14:15:48] [Server thread/INFO]: Generating keypair
+[14:15:49] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[14:15:49] [Server thread/INFO]: Using epoll channel type
+[14:15:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:15:49] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[14:15:49] [Server thread/WARN]: [com.dfsek.terra.AbstractPlatform] Moonrise found, but WORKER_THREADS field not found this probably means {0} has changed its code and Terra has not updated to reflect that.
+[14:15:49] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Initializing Terra...
+[14:15:49] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config.yml
+[14:15:49] [Server thread/INFO]: [com.dfsek.terra.config.PluginConfigImpl] Loading config values from config.yml
+[14:15:49] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading 37 Terra addons:
+        - biome-provider-extrusion@1.0.0-BETA+83bc2c902
+        - biome-provider-image@1.0.1-BETA+83bc2c902
+        - biome-provider-image-v2@1.0.1-BETA+83bc2c902
+        - biome-provider-pipeline@1.0.2-BETA+83bc2c902
+        - biome-provider-pipeline-v2@1.0.1-BETA+83bc2c902
+        - biome-provider-single@1.0.0-BETA+83bc2c902
+        - biome-query-api@1.0.0-BETA+83bc2c902
+        - chunk-generator-noise-3d@1.2.1-BETA+83bc2c902
+        - command-addons@1.0.0-BETA+83bc2c902
+        - command-packs@1.0.0-BETA+83bc2c902
+        - command-profiler@1.0.0-BETA+83bc2c902
+        - command-structures@1.0.0-BETA+83bc2c902
+        - config-biome@1.0.0-BETA+83bc2c902
+        - config-distributors@1.0.1-BETA+83bc2c902
+        - config-feature@1.0.0-BETA+83bc2c902
+        - config-flora@1.0.1-BETA+83bc2c902
+        - config-locators@1.1.1-BETA+83bc2c902
+        - config-noise-function@1.2.0-BETA+83bc2c902
+        - config-number-predicate@1.0.0-BETA+83bc2c902
+        - config-ore@1.1.1-BETA+83bc2c902
+        - config-palette@1.0.0-BETA+83bc2c902
+        - config-structure@1.0.1-BETA+83bc2c902
+        - generation-stage-feature@1.1.0-BETA+83bc2c902
+        - generation-stage-structure@1.0.0-BETA+83bc2c902
+        - language-yaml@1.0.0-BETA+83bc2c902
+        - library-image@1.1.0-BETA+83bc2c902
+        - locator-slant-noise-3d@1.0.0-BETA+83bc2c902
+        - palette-block-shortcut@1.0.0-BETA+83bc2c902
+        - pipeline-image@1.0.0-BETA+83bc2c902
+        - structure-block-shortcut@1.0.0-BETA+83bc2c902
+        - structure-function-check-noise-3d@1.0.1-BETA+83bc2c902
+        - structure-mutator@0.1.0-BETA+83bc2c902
+        - structure-sponge-loader@1.0.0-BETA+83bc2c902
+        - structure-terrascript-loader@1.2.0-BETA+83bc2c902
+        - terra@1.0.0
+        - terra-bukkit@1.0.0
+        - terrascript-function-sampler@1.0.0-BETA+83bc2c902
+[14:15:49] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Terra addons successfully loaded.
+[14:15:49] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Finished initialization.
+[14:15:49] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.7
+[14:15:49] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.5.0
+[14:15:49] [Server thread/INFO]: [PerWorldInventory] Loading server plugin PerWorldInventory v2.3.2
+[14:15:49] [Server thread/INFO]: [MVPLogging] Loading server plugin Multiverse-NetherPortals v5.0.4
+[14:15:49] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.1-Release
+[14:15:49] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version! The following Item options will not work: nbt_int, nbt_ints, nbt_string and nbt_strings.
+[14:15:49] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.0+7381-3decaf0
+[14:15:50] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@ff0bf40]
+[14:15:50] [Server thread/INFO]: [Terra] Loading server plugin Terra v6.6.1-BETA+83bc2c902
+[14:15:50] [Server thread/INFO]: [FancyHolograms] Loading server plugin FancyHolograms v2.9.1
+[14:15:50] [Server thread/INFO]: [ItemJoin] Loading server plugin ItemJoin v6.1.2-RELEASE-b1076
+[14:15:50] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully loaded FancyHolograms version 2.9.1
+[14:15:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:15:50] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.0+7381-3decaf0
+[14:15:50] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:15:50] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:15:50] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
+[14:15:50] [Server thread/INFO]: [Terra] Enabling Terra v6.6.1-BETA+83bc2c902
+[14:15:50] [Server thread/INFO]: [com.dfsek.terra.bukkit.TerraBukkitPlugin] Running on Minecraft version v1.21.4 with server implementation Paper.
+[14:15:50] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config packs...
+[14:15:51] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "TARTARUS:TARTARUS"
+[14:15:51] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "TARTARUS:TARTARUS" v0.5.0 by Jaddot in 475.593989ms.
+[14:15:51] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "REIMAGEND:REIMAGEND"
+[14:15:51] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "REIMAGEND:REIMAGEND" v2.3.1 by Aureus, RogueShade in 358.837234ms.
+[14:15:51] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: default.zip
+[14:15:51] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "OVERWORLD:OVERWORLD"
+[14:15:52] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "OVERWORLD:OVERWORLD" v1.3.4 by Astrash, Sancires, Aureus in 425.792607ms.
+[14:15:52] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loaded packs.
+[14:15:52] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21_3.AwfulBukkitHacks] Hacking biome registry...
+[14:15:52] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21_3.AwfulBukkitHacks] Doing tag garbage....
+[14:15:52] [Server thread/INFO]: [ItemJoin] Enabling ItemJoin v6.1.2-RELEASE-b1076
+[14:15:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:15:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:15:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:15:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:15:52] [Server thread/INFO]: Preparing level "world"
+[14:15:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:15:52] [Server thread/INFO]: Preparing spawn area: 0%
+[14:15:53] [Server thread/INFO]: Preparing spawn area: 2%
+[14:15:53] [Server thread/INFO]: Time elapsed: 547 ms
+[14:15:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:15:53] [Server thread/INFO]: Preparing spawn area: 0%
+[14:15:53] [Server thread/INFO]: Time elapsed: 61 ms
+[14:15:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:15:53] [Server thread/INFO]: Preparing spawn area: 0%
+[14:15:53] [Server thread/INFO]: Time elapsed: 36 ms
+[14:15:53] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
+[14:15:53] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:15:53] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.5.0
+[14:15:54] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21_3.NMSInjectListener] Preparing to take over the world: Nether
+[14:15:54] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21_3.NMSInjectListener] Successfully injected into world.
+[14:15:54] [Server thread/INFO]: Preparing start region for dimension minecraft:nether
+[14:15:54] [Server thread/INFO]: Preparing spawn area: 0%
+[14:15:54] [Server thread/INFO]: Time elapsed: 93 ms
+[14:15:54] [Server thread/INFO]: Preparing start region for dimension minecraft:smallhider
+[14:15:54] [Server thread/INFO]: Preparing spawn area: 0%
+[14:15:54] [Server thread/INFO]: Time elapsed: 64 ms
+[14:15:54] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21_3.NMSInjectListener] Preparing to take over the world: Survival
+[14:15:54] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21_3.NMSInjectListener] Successfully injected into world.
+[14:15:54] [Server thread/INFO]: Preparing start region for dimension minecraft:survival
+[14:15:54] [Server thread/INFO]: Preparing spawn area: 0%
+[14:15:54] [Server thread/INFO]: Time elapsed: 88 ms
+[14:15:54] [Server thread/INFO]: Preparing start region for dimension minecraft:creative
+[14:15:54] [Server thread/INFO]: Preparing spawn area: 0%
+[14:15:54] [Server thread/INFO]: Time elapsed: 25 ms
+[14:15:54] [Server thread/ERROR]: [Multiverse-Core] Failed to autoload world 1: Failure{reason=WORLD_FOLDER_INVALID}
+[14:15:54] [Server thread/ERROR]: [Multiverse-Core] Failed to autoload world 3: Failure{reason=WORLD_FOLDER_INVALID}
+[14:15:54] [Server thread/INFO]: Preparing start region for dimension minecraft:hovanky
+[14:15:54] [Server thread/INFO]: Preparing spawn area: 0%
+[14:15:54] [Server thread/INFO]: Time elapsed: 32 ms
+[14:15:54] [Server thread/INFO]: Preparing start region for dimension minecraft:hub
+[14:15:54] [Server thread/INFO]: Preparing spawn area: 0%
+[14:15:54] [Server thread/INFO]: Time elapsed: 70 ms
+[14:15:54] [Server thread/ERROR]: [Multiverse-Core] Failed to autoload world 5: Failure{reason=WORLD_FOLDER_INVALID}
+[14:15:54] [Server thread/ERROR]: [Multiverse-Core] Failed to autoload world 6: Failure{reason=WORLD_FOLDER_INVALID}
+[14:15:54] [Server thread/INFO]: Preparing start region for dimension minecraft:options
+[14:15:54] [Server thread/INFO]: Preparing spawn area: 0%
+[14:15:54] [Server thread/INFO]: Time elapsed: 31 ms
+[14:15:54] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21_3.NMSInjectListener] Preparing to take over the world: End
+[14:15:54] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21_3.NMSInjectListener] Successfully injected into world.
+[14:15:54] [Server thread/INFO]: Preparing start region for dimension minecraft:end
+[14:15:54] [Server thread/INFO]: Preparing spawn area: 0%
+[14:15:54] [Server thread/INFO]: Time elapsed: 52 ms
+[14:15:54] [Server thread/INFO]: Preparing start region for dimension minecraft:parkour
+[14:15:54] [Server thread/INFO]: Preparing spawn area: 0%
+[14:15:54] [Server thread/INFO]: Time elapsed: 17 ms
+[14:15:54] [Server thread/WARN]: Failed to load world data from ./terra_ofer/level.dat
+java.nio.file.NoSuchFileException: ./terra_ofer/level.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
+	at net.minecraft.nbt.NbtIo.readCompressed(NbtIo.java:33) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.level.storage.LevelStorageSource.readLevelDataTagRaw(LevelStorageSource.java:222) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.level.storage.LevelStorageSource.readLevelDataTagFixed(LevelStorageSource.java:226) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.getDataTag(LevelStorageSource.java:504) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.getDataTag(LevelStorageSource.java:495) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1339) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.Bukkit.createWorld(Bukkit.java:839) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:502) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at multiverse-core-5.5.0.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:893) ~[multiverse-core-5.5.0.jar:?]
+	at multiverse-core-5.5.0.jar/org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:74) ~[multiverse-core-5.5.0.jar:?]
+	at multiverse-core-5.5.0.jar/org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:891) ~[multiverse-core-5.5.0.jar:?]
+	at multiverse-core-5.5.0.jar/org.mvplugins.multiverse.core.utils.result.Attempt$Success.mapAttempt(Attempt.java:365) ~[multiverse-core-5.5.0.jar:?]
+	at multiverse-core-5.5.0.jar/org.mvplugins.multiverse.core.world.WorldManager.doLoadWorld(WorldManager.java:485) ~[multiverse-core-5.5.0.jar:?]
+	at multiverse-core-5.5.0.jar/org.mvplugins.multiverse.core.utils.result.Attempt$Success.mapAttempt(Attempt.java:365) ~[multiverse-core-5.5.0.jar:?]
+	at multiverse-core-5.5.0.jar/org.mvplugins.multiverse.core.world.WorldManager.loadWorld(WorldManager.java:452) ~[multiverse-core-5.5.0.jar:?]
+	at multiverse-core-5.5.0.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$autoLoadWorlds$18(WorldManager.java:229) ~[multiverse-core-5.5.0.jar:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at multiverse-core-5.5.0.jar/org.mvplugins.multiverse.core.world.WorldManager.autoLoadWorlds(WorldManager.java:229) ~[multiverse-core-5.5.0.jar:?]
+	at multiverse-core-5.5.0.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$initAllWorlds$0(WorldManager.java:152) ~[multiverse-core-5.5.0.jar:?]
+	at multiverse-core-5.5.0.jar/org.mvplugins.multiverse.external.vavr.control.Try.andThenTry(Try.java:308) ~[multiverse-core-5.5.0.jar:?]
+	at multiverse-core-5.5.0.jar/org.mvplugins.multiverse.core.world.WorldManager.initAllWorlds(WorldManager.java:150) ~[multiverse-core-5.5.0.jar:?]
+	at multiverse-core-5.5.0.jar/org.mvplugins.multiverse.core.MultiverseCore.onEnable(MultiverseCore.java:101) ~[multiverse-core-5.5.0.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:658) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:15:54] [Server thread/INFO]: Attempting to use fallback
+[14:15:55] [Server thread/INFO]: Preparing start region for dimension minecraft:terra_ofer
+[14:15:55] [Server thread/INFO]: Preparing spawn area: 0%
+[14:15:55] [Server thread/INFO]: Preparing spawn area: 0%
+[14:15:56] [Server thread/INFO]: Preparing spawn area: 2%
+[14:15:56] [Server thread/INFO]: Time elapsed: 1414 ms
+[14:15:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.5.0]
+[14:15:56] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[14:15:56] [Server thread/INFO]: [Multiverse-Core] Version 5.5.0 (API v5.5) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[14:15:56] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[14:15:56] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v2.3.2
+[14:15:57] [Server thread/WARN]: Plugin 'PerWorldInventory' is creating timing 'Commands' - this is deprecated behavior, please report it to the authors: EbonJaeger
+[14:15:57] [Server thread/INFO]: [PerWorldInventory] [ACF] Enabled Asynchronous Tab Completion Support!
+[14:15:57] [Server thread/WARN]: Plugin 'PerWorldInventory' is creating timing 'Command: perworldinventory' - this is deprecated behavior, please report it to the authors: EbonJaeger
+[14:15:57] [Server thread/WARN]: Plugin 'PerWorldInventory' is creating timing 'Command: perworldinventory help' - this is deprecated behavior, please report it to the authors: EbonJaeger
+[14:15:57] [Server thread/WARN]: Plugin 'PerWorldInventory' is creating timing 'Command: perworldinventory version' - this is deprecated behavior, please report it to the authors: EbonJaeger
+[14:15:57] [Server thread/WARN]: Plugin 'PerWorldInventory' is creating timing 'Command: perworldinventory reload' - this is deprecated behavior, please report it to the authors: EbonJaeger
+[14:15:57] [Server thread/WARN]: Plugin 'PerWorldInventory' is creating timing 'Command: perworldinventory convert' - this is deprecated behavior, please report it to the authors: EbonJaeger
+[14:15:57] [Server thread/WARN]: Plugin 'PerWorldInventory' is creating timing 'Command: perworldinventory group create' - this is deprecated behavior, please report it to the authors: EbonJaeger
+[14:15:57] [Server thread/WARN]: Plugin 'PerWorldInventory' is creating timing 'Command: perworldinventory group addworld' - this is deprecated behavior, please report it to the authors: EbonJaeger
+[14:15:57] [Server thread/WARN]: Plugin 'PerWorldInventory' is creating timing 'Command: perworldinventory group info' - this is deprecated behavior, please report it to the authors: EbonJaeger
+[14:15:57] [Server thread/WARN]: Plugin 'PerWorldInventory' is creating timing 'Command: perworldinventory group list' - this is deprecated behavior, please report it to the authors: EbonJaeger
+[14:15:57] [Server thread/WARN]: Plugin 'PerWorldInventory' is creating timing 'Command: perworldinventory group delete' - this is deprecated behavior, please report it to the authors: EbonJaeger
+[14:15:57] [Server thread/WARN]: Plugin 'PerWorldInventory' is creating timing 'Command: perworldinventory group removeworld' - this is deprecated behavior, please report it to the authors: EbonJaeger
+[14:15:57] [Server thread/WARN]: Plugin 'PerWorldInventory' is creating timing 'Command: perworldinventory group setrespawn' - this is deprecated behavior, please report it to the authors: EbonJaeger
+[14:15:57] [Server thread/WARN]: Plugin 'PerWorldInventory' is creating timing 'Command: perworldinventory migrate' - this is deprecated behavior, please report it to the authors: EbonJaeger
+[14:15:57] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.4
+[14:15:57] [Server thread/INFO]: [Multiverse-NetherPortals] Version 5.0.4 (API v5.0) Enabled - By Rigby, fernferret and benwoo1110
+[14:15:57] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.1-Release
+[14:15:57] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[14:15:57] [Server thread/INFO]: [DeluxeMenus] 4 GUI menus loaded!
+[14:15:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.1-Release]
+[14:15:57] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[14:15:57] [Server thread/INFO]: [FancyHolograms] Enabling FancyHolograms v2.9.1
+[14:15:57] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully enabled FancyHolograms version 2.9.1
+[14:15:57] [Server thread/INFO]: [spark] Starting background profiler...
+[14:15:57] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:15:57] [Server thread/INFO]: Done preparing level "world" (5.494s)
+[14:15:57] [Server thread/INFO]: Running delayed init tasks
+[14:15:57] [Craft Scheduler Thread - 3 - ItemJoin/INFO]: [ItemJoin] Hooked into { Multiverse-Core, PerWorldInventory, PlaceholderAPI }
+[14:15:58] [Server thread/INFO]: [ItemJoin] 1/1 Custom item(s) loaded!
+[14:15:58] [Server thread/INFO]: Done (15.100s)! For help, type "help"
+[14:15:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
+[14:15:58] [Craft Scheduler Thread - 0 - ItemJoin/INFO]: [ItemJoin] Checking for updates...
+[14:15:58] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[14:15:58] [Craft Scheduler Thread - 0 - ItemJoin/INFO]: [ItemJoin] Your current version: v6.1.2-RELEASE
+[14:15:58] [Craft Scheduler Thread - 0 - ItemJoin/INFO]: [ItemJoin] A new version is available: v6.1.6-RELEASE
+[14:15:58] [Craft Scheduler Thread - 0 - ItemJoin/INFO]: [ItemJoin] Get it from: https://github.com/RockinChaos/itemjoin/releases/latest
+[14:15:58] [Craft Scheduler Thread - 0 - ItemJoin/INFO]: [ItemJoin] If you wish to auto update, please type /ItemJoin Upgrade
+[14:15:59] [User Authenticator #0/INFO]: UUID of player Y0U_DI3D is 32a658d7-9d67-38dd-828d-acbbc9e86bdc
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] Can't read players locale, you will be unable to automatically detect players language. Only Bukkit 1.7+ is supported for this.
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] java.lang.NoSuchFieldException: locale
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at java.base/java.lang.Class.getDeclaredField(Class.java:2784)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.getDeclaredField(AbstractDefaultRulesReflectionProxy.java:90)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.getDeclaredField(Unknown Source)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at perworldinventory-kt-2.3.2.jar//me.ebonjaeger.perworldinventory.command.acf.BukkitCommandManager.readPlayerLocale(BukkitCommandManager.java:313)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at perworldinventory-kt-2.3.2.jar//me.ebonjaeger.perworldinventory.command.acf.ACFBukkitListener.onPlayerJoin(ACFBukkitListener.java:54)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:327)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:163)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[14:16:00] [Server thread/INFO]: [PerWorldInventory] [ACF] 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[14:16:00] [Server thread/INFO]: Y0U_DI3D joined the game
+[14:16:00] [Server thread/INFO]: Y0U_DI3D[/193.53.89.117:57925] logged in with entity id 268 at ([Hub]-815.5, 54.0, -765.5)
+[14:16:13] [Server thread/INFO]: Y0U_DI3D issued server command: /mv tp terra_ofer
+[14:16:16] [Server thread/INFO]: Y0U_DI3D issued server command: /mv tp terra_ofer --unsafe
+[14:16:16] [Server thread/WARN]: [PerWorldInventory] Creating a new group on the fly for 'Hub'. Please double check your `worlds.yml` file configuration!
+[14:16:16] [Server thread/WARN]: [PerWorldInventory] Creating a new group on the fly for 'terra_ofer'. Please double check your `worlds.yml` file configuration!
+[14:16:21] [Server thread/INFO]: Y0U_DI3D issued server command: /gamemode spectator
+[14:16:21] [Server thread/INFO]: [Y0U_DI3D: Set own game mode to Spectator Mode]
+[14:16:41] [Server thread/INFO]: Y0U_DI3D issued server command: /gamemode creative
+[14:16:41] [Server thread/INFO]: [Y0U_DI3D: Set own game mode to Creative Mode]
+[14:57:12] [Server thread/INFO]: Y0U_DI3D issued server command: /weather clear
+[14:57:12] [Server thread/INFO]: [Y0U_DI3D: Set the weather to clear]
+[15:25:10] [Server thread/INFO]: Y0U_DI3D issued server command: //copy
+[15:25:18] [Server thread/INFO]: Y0U_DI3D issued server command: //set 0
+[15:25:29] [Server thread/INFO]: Y0U_DI3D issued server command: //paste
+[15:45:09] [Server thread/INFO]: Y0U_DI3D issued server command: //paste
+[15:45:13] [Server thread/INFO]: Y0U_DI3D issued server command: //undo
+[15:45:19] [Server thread/INFO]: Y0U_DI3D issued server command: /weather clear
+[15:45:19] [Server thread/INFO]: [Y0U_DI3D: Set the weather to clear]
+[15:54:08] [Server thread/INFO]: Y0U_DI3D lost connection: Disconnected
+[15:54:08] [Server thread/INFO]: Y0U_DI3D left the game
+[16:00:12] [User Authenticator #1/INFO]: UUID of player Y0U_DI3D is 32a658d7-9d67-38dd-828d-acbbc9e86bdc
+[16:00:13] [Server thread/INFO]: Y0U_DI3D joined the game
+[16:00:13] [Server thread/INFO]: Y0U_DI3D[/193.53.89.117:50136] logged in with entity id 10329 at ([terra_ofer]-737.755162994911, 71.14973532055646, -734.7475395523043)
+[16:00:19] [Server thread/INFO]: Y0U_DI3D issued server command: /gamemode creative
+[16:00:19] [Server thread/INFO]: [Y0U_DI3D: Set own game mode to Creative Mode]
+[16:00:26] [Server thread/INFO]: Y0U_DI3D lost connection: Disconnected
+[16:00:26] [Server thread/INFO]: Y0U_DI3D left the game
